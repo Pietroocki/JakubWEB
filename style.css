@@ -858,8 +858,8 @@ p {
   display: flex;
   flex-direction: column;
   gap: 18px;
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
+  background: #15182a;
+  border: 1px solid rgba(139, 92, 246, 0.2);
   border-radius: 20px;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
 }
@@ -871,9 +871,9 @@ p {
   padding: 15px 17px;
   font-family: inherit;
   font-size: 16px;
-  color: #111827;
-  background: #f8fafc;
-  border: 1px solid #d1d5db;
+  color: white;
+  background: #1d2136;
+  border: 1px solid #343a55;
   border-radius: 12px;
   outline: none;
   transition: 0.25s ease;
@@ -881,7 +881,7 @@ p {
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  color: #94a3b8;
+  color: #9da6c5;
 }
 
 .contact-form input:focus,
